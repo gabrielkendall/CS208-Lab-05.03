@@ -1,29 +1,77 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* Default font stack */
+body {
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+/* Main Header */
+h1 {
+  text-align: center;
+  font-size: 16px;
+  color: #444444;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+/* Container for both Offers */
+.container {
+  text-align: center;
+  margin: 5px;
+  font-size: 13px;
 }
 
-th {
-  background-color: #f2f2f2;
+/* Offer section for each "Table" */
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+/* Offer title */
+.offer-title {
+  font-size: 14px;
   font-weight: bold;
+  color: #ffffff;
+  background-color: #00b3b3;
+  margin: 0;
+  padding: 15px;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+/* Offer contents */
+.offer-contents {
+  padding: 20px;
+  background-color: #fafafa;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+/* Table styling for each offer table */
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-spacing: 0;
+}
+
+/* Table Headers */
+th {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777777;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Table Data entries */
+td {
+  font-weight: lighter;
+  color: #444444;
+  padding: 20px 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Final value emphasis */
+.final-value {
+  font-weight: bold;
+  color: #2222ff;
 }
